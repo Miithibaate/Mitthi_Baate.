@@ -19,7 +19,7 @@ This folder contains a static website ready to upload to GitHub and host via Git
    git add .
    git commit -m "Initial site upload"
    git branch -M main
-   git remote add origin https://github.com/<YOUR_USERNAME>/<REPO_NAME>.git
+   git remote add origin https://github.com/Miithibaate/Mitthi_Baate..git
    git push -u origin main
    ```
 3. In GitHub, go to your repository's **Settings → Pages**.
