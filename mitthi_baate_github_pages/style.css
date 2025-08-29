@@ -1,0 +1,12 @@
+
+:root{--bg:#fffaf0;--card:#fff;--accent:#b36a2b;--dark:#3d2216}
+*{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0;background:var(--bg);color:var(--dark);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.site-header{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;background:linear-gradient(90deg,#fff7ec,#fff);border-bottom:1px solid #f5e0c8}
+.brand{display:flex;align-items:center;gap:14px}.logo{width:84px;height:84px;object-fit:cover;border-radius:12px;border:2px solid #f3d7b2;padding:4px;background:#fff}
+.brand-text h1{margin:0;font-size:1.6rem;color:var(--dark)}.brand-text .tag{margin:4px 0 0;color:#744422;font-size:0.95rem}
+.top-nav a{margin-left:12px;text-decoration:none;color:#6b3f2b;font-weight:600}
+.hero{display:flex;gap:20px;align-items:center;padding:30px 0}.hero-left{flex:1}.hero-right{flex:1;display:flex;justify-content:center}
+.hero h2{font-size:1.8rem;margin:0 0 8px;color:var(--dark)}.hero p{margin:0 0 14px;color:#6b3f2b}.cta{display:inline-block;background:var(--accent);color:white;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+.products h2{margin-top:0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:10px}.card{background:var(--card);border:1px solid #f2d9bb;padding:14px;border-radius:12px;text-align:center;box-shadow:0 6px 14px rgba(0,0,0,0.04)}.card img{width:100%;height:200px;object-fit:cover;border-radius:8px}.card h3{margin:12px 0 6px;color:var(--dark);font-size:1.05rem}.price{color:var(--accent);font-weight:700;margin:0 0 10px}.order{display:inline-block;background:#ffd5a6;color:var(--dark);padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:700}
+.prices{margin-top:30px;text-align:center}.price-image img{max-width:100%;height:auto;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}.contact{margin:30px 0;padding:20px;background:#fff3e6;border-radius:10px;text-align:center;border:1px solid #f6dbc0}.footer{text-align:center;padding:18px 6px;background:#fff7ec;border-top:1px solid #f5e0c8;margin-top:24px}
